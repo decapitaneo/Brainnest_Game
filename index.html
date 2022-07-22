@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Paper Rock Scissors Game</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Paper Rock Scissors</h1>
+        </header>
+        <main>
+            <div class="score-board">
+                <div id="user-label" class="user">
+                    <img src="./img/user.png" alt="">
+                    <h2>User</h2>
+                </div>
+                <div class="span">
+                    <span id="user_score">0</span> : <span id="computer_score">0</span>
+                </div>
+                <div id="computer-label" class="computer">
+                    <img src="./img/computer.png" height="460px" width="460px" alt="">
+                    <h2>Computer</h2>
+                </div>
+            </div>
+            <div class="game-over">
+                <p id="result"></p>
+            </div>
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <img src="./img/rockk.png" alt="Rock image">
+                </div>
+                <div class="choice" id="paper">
+                    <img src="./img/paperr.png" alt="Paper image">
+                </div>
+                <div class="choice" id="scissors">
+                    <img src="./img/scissorss.png" alt="">
+                </div>
+            </div>
+            <div id="action-message" class="action">
+                <p>Try your luck!</p>
+            </div>
+        </main>
+    </div>
+    <script src="game.js" charset="UTF-8"></script>
+</body>
+</html>
